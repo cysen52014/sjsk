@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link type="text/css" rel="stylesheet" href="css/global.css" />
+<link type="text/css" rel="stylesheet" href="css/layout.css" />
+<link type="text/css" rel="stylesheet" href="css/home.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.waterfall.js"></script>
+<script type="text/javascript" src="http://www.g2.cn/js/flowplayer/flowplayer-3.2.8.min.js"></script>
+</head>
+
+<body>
+<div class="bg01">
+    <div class="bg02">
+        <div class="topBar">
+             <div class="center clearfix">
+                 <a href="javascript:void(0)" class="logo">设计是空</a>
+                 <div class="barRi">
+                     <p>
+                        <span>设计部分享站</span>
+                        <!--<span class="fr"><a class="logIn" href="javascript:void(0)">登录</a></span>-->
+                        <span class="fr">欢迎你来到设计部分享站<a class="logIn" href="javascript:void(0)">退出</a><a class="up" href="javascript:void(0)">上传</a></span>
+                     </p>
+                     <div class="search">
+                         <input type="text" /><button class="s_btn"></button>
+                     </div>
+                 </div>
+             </div>
+        </div>
+        <div class="wrap">   
+            <div class="toolbars">
+                <div class="center">
+                     <div class="toolsNav_one">
+                         <ul class="clearfix">
+                             <li><a href="javascript:void(0)">原画</a></li>
+                             <li><a href="javascript:void(0)">素材</a></li>
+                             <li><a href="javascript:void(0)">字体</a></li>
+                             <li><a href="javascript:void(0)">视频</a></li>
+                             <li><a href="javascript:void(0)">Flash</a></li>
+                             <li><a href="javascript:void(0)">原画</a></li>
+                         </ul>
+                     </div> 
+                     <div class="toolsNav_two">
+                          <ul class="clearfix">
+                              <li><a href="javascript:void(0)">人物</a></li>
+                              <li><a href="javascript:void(0)">道具</a></li>
+                              <li><a href="javascript:void(0)">场景</a></li>
+                              <li><a href="javascript:void(0)">宠物</a></li>
+                          </ul>
+                          <ul class="clearfix">
+                              <li><a href="javascript:void(0)">人物2</a></li>
+                              <li><a href="javascript:void(0)">道具</a></li>
+                              <li><a href="javascript:void(0)">场景</a></li>
+                              <li><a href="javascript:void(0)">宠物</a></li>
+                          </ul>
+                          <ul class="clearfix">
+                              <li><a href="javascript:void(0)">人物3</a></li>
+                              <li><a href="javascript:void(0)">道具</a></li>
+                              <li><a href="javascript:void(0)">场景</a></li>
+                              <li><a href="javascript:void(0)">宠物</a></li>
+                          </ul>
+                          <ul class="clearfix">
+                              <li><a href="javascript:void(0)">人物4</a></li>
+                              <li><a href="javascript:void(0)">道具</a></li>
+                              <li><a href="javascript:void(0)">场景</a></li>
+                              <li><a href="javascript:void(0)">宠物</a></li>
+                          </ul>
+                          <ul class="clearfix">
+                              <li><a href="javascript:void(0)">人物5</a></li>
+                              <li><a href="javascript:void(0)">道具</a></li>
+                              <li><a href="javascript:void(0)">场景</a></li>
+                              <li><a href="javascript:void(0)">宠物</a></li>
+                          </ul>
+                          <ul class="clearfix">
+                              <li><a href="javascript:void(0)">人物6</a></li>
+                              <li><a href="javascript:void(0)">道具</a></li>
+                              <li><a href="javascript:void(0)">场景</a></li>
+                              <li><a href="javascript:void(0)">宠物</a></li>
+                          </ul>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="Tags">
+                 <div class="c clearfix">
+                   <span>相关搜索：</span>
+                   <ul id="TagsList">
+                       <li class="cur"><a href="javascript:void(0)">男</a><em></em></li>
+                       <li><a href="javascript:void(0)">武侠</a><em></em></li>
+                       <li><a href="javascript:void(0)">欧美</a><em></em></li>
+                       <li><a href="javascript:void(0)">宠物</a><em></em></li>
+                       <li><a href="javascript:void(0)">真人</a><em></em></li>
+                       <li><a href="javascript:void(0)">情侣</a><em></em></li>
+                   </ul>
+                 </div>
+            </div>
+            
+            <!--......瀑布流......-->
+            <div class="waterfall" id="waterfall">
+            
+            </div>
+            <!--......瀑布流......-->
+            
+            
+            
+        </div>
+        <div class="win_view clearfix">
+            <div class="win_img_box">
+                 <div class="win_tit">
+                      <p class="desc clearfix">
+                          <img src="images/tx.gif" class="ph">
+                          <a href="javascript:void(0)" class="name">小薇</a>
+                          <a target="_blank" href="http://www.wookmark.com/images/original/421606_wookmark.jpg" class="download">下载</a>
+                      </p>
+                 </div>
+                 <div class="win_img">
+                      <div class="videoplay">
+                           <div class="player">
+                                <a href="javascript:void(0)" class="closeWow" style="display:none" onclick="$f().stop();"></a>
+                                <div id="players"></div>
+                          </div>
+                      </div>
+                      <div class="loding"></div>
+                 </div>
+            </div>
+            
+            <div class="tagsBox">
+                <div class="tit"></div>
+                <div class="c">
+                    <div class="r0 delTags clearfix">
+                        <a href="javascript:void(0)"><em>对打</em><var></var></a>
+                        <a href="javascript:void(0)"><em>Q版</em><var></var></a>
+                        <a href="javascript:void(0)"><em>三国</em><var></var></a>
+                    </div>
+                    <div class="r1 addTags">
+                        <div class="search"><input class="ivlue" type="text" /><button class="addTagBtn">添加</button></div>
+                        <div class="aTags clearfix">
+                            <a href="javascript:void(0)" class="a"><em>情侣</em></a><a href="javascript:void(0)" class="a"><em>武侠</em></a><a href="javascript:void(0)" class="a"><em>三国</em></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="win_view_layer">
+            <a class="close" href="javascript:void(0)"></a>
+            <p class="prev"></p>
+            <p class="next"></p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+	// 一次性全部加载到本地，再部分显示
+	// $('#waterfall').waterfall({
+	// 	url: 'http://127.0.0.1/demo/waterfall/js/json.js',
+	// 	perNum: 5,			// 每次显示五个
+	// 	ajaxTimes: 1 		// 只发送一次请求
+	// });
+	
+	
+	// 按需加载方式
+	var wf_page = 0;
+	var pre = 1;
+	$('#waterfall').waterfall({
+		// 自定义跨域请求
+		ajaxFunc: function(success, error){
+			$.ajax({
+				type: 'GET',
+				url: 'http://www.wookmark.com/api/json/popular?callback=?',
+				cache: false,
+				data: {'page': ++wf_page},
+				dataType:'jsonp',
+				timeout: 60000,
+				success: success,
+				error: error
+			});
+		},
+		createHtml: function(data){
+			 var gesi = data.image.split('.');
+			 var g = gesi[3].toLowerCase();
+	
+			 var tx = 'images/tx.gif';
+			 var tit = '小薇';
+			 var bimgSrc = 'images/imgs_01.jpg';
+			 return '<div class="wf_item_inner">' +
+					  '<a href="javascript:void(0)" rel="'+ data.image +'" class="thumb videoSet">' +
+						'<img class="thumb_img"  src="'+ data.preview +'" />' +
+					  '</a>' +
+					  '<p class="desc clearfix"><img class="ph" src='+ tx +' /><a class="name" href="javascript:void(0)">'+ data.title +'</a><a class="download" href="'+data.image+'" target="_blank">下载</a> </p>' +
+				  '</div>'+
+				  '<span class="gs">'+g+'</span>';
+			
+			   
+		}
+	});
+	
+	$('.addTagBtn').on('click',function(){
+	    var txt = $('.ivlue').val();
+	    var result=txt.replace(/(^\s+)|(\s+$)/g,"");
+		checkTags(result);
+	});
+	
+	
+	
+	function checkTags(result){
+	    if(result!=''){
+			$('.delTags a').each(function(index) {
+				var sov = $(this).children('em').html().replace(/(^\s+)|(\s+$)/g,"");
+				if(result == sov){
+				    pre = 0
+				}
+            });
+
+			if(pre){
+			    var htm = '<a href="javascript:void(0)"><em>'+result+'</em><var></var></a>';
+				$('.delTags').append(htm);  
+			}else{
+			    alert('标签已添加！');
+				pre = 1;
+			}
+			$('.delTags a var').on('click',function(){
+				$(this).parent().remove();
+			})
+		}	
+	}
+	
+	$('.delTags a var').on('click',function(){
+		$(this).parent().remove();
+	})
+	
+	$('.aTags a').on('click',function(){
+		if($(this).attr('class').indexOf('add')==-1){
+			$(this).addClass('add');
+			var txt = $(this).children().html().replace(/(^\s+)|(\s+$)/g,"");
+			checkTags(txt)
+		}
+	}) 
+    //视频播放	
+
+});
+</script>
+</body>
+</html>

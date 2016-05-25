@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg01{ background:url(img/body_bg.jpg)}
+.topBar{ background:url(img/topBar.gif) repeat-x; height:96px;}
+.topBar .center{width:1242px; margin:0 auto; padding-top:7px;}
+.wrap{ width:1244px; margin:0 auto; position:relative;}
+.logo{ background:url(img/logo.gif) no-repeat; width:302px; height:89px; display:block; text-indent:-999em; overflow:hidden; float:left;}
+.topBar .center .barRi{float:left; }
+.topBar .center p{ display:block; height:26px; line-height:26px;}
+.topBar .center p span{ width:160px; float:left; display:block; height:26px; line-height:26px; color:#ffffff;}
+.topBar .center p span.fr{ float:right; width:300px;}
+.topBar .center p a{ display:block; float:right; height:26px; line-height:26px; color:#ffffff; width:60px; text-align:center;}
+.topBar .center p a:hover{ color:#daed03;}
+.topBar .center .search{ background:url(img/seach_bg.gif) no-repeat; width:409px; height:34px; float:right; margin:13px 10px 0 0;}
+.topBar .search input{ width:300px; height:31px; padding:0 5px; line-height:31px; color:#666666; background:none; border:none; float:left; margin:0 9px 0 2px}
+.topBar .search button{ width:88px; height:31px; display:block; border:none; background:none;float:left;}
+.topBar .search button:hover{background:url(img/s_btn.gif) no-repeat;}
+
+
+.toolbars{ margin:0 auto; border:1px solid #c6c4c2;box-shadow:0px 0px 1px 1px rgba(127,127,127,.1);border-radius:3px; margin-top:14px; background:#FFF;}
+.toolbars .center{}
+.toolbars ul li{ float:left; margin-right:10px; display:block;}
+.toolbars ul li a{ padding:7px 20px; color:#666666; display:block;}
+
+
+.toolsNav_one{ padding:14px 14px;}
+.toolsNav_one ul li a:hover,.toolsNav_one ul li a.on{background:#01a8b5; color:#ffffff;}
+.toolsNav_two ul{ padding:14px 14px;border-top:1px solid #e1e1e1; display:none;}
+.toolsNav_two ul li a:hover,.toolsNav_two ul li a.on{background:#47cdd7; color:#ffffff;}
+
+.Tags{margin:0 auto; border:1px solid #c6c4c2;box-shadow:0px 0px 1px 1px rgba(127,127,127,.1);border-radius:3px; margin-top:14px;background:#FFF;}
+.Tags .c{ display:block; padding:8px 14px; color:#666666;}
+.Tags .c span{ float:left; width:68px; height:14px; padding:7px 0 0 0; display:block;}
+.Tags .c ul{ display:block; float:right;}
+.Tags .c ul li{ float:left; display:block; position:relative; margin-right:10px;}
+.Tags .c ul li em{ display:none; background:url(img/al_ico.gif) no-repeat; width:15px; height:14px; position:absolute; right:2px; top:7px;}
+.Tags .c ul li.cur{ background:#efefef;}
+.Tags .c ul li.cur a{ color:#ff6600;}
+.Tags .c ul li.cur em{ display:block;}
+.Tags .c ul li.cur em:hover{background:url(img/al_ico.gif) no-repeat -17px 0;}
+.Tags .c ul a{ padding:7px 18px; color:#666666; display:block;}
+.Tags .c ul a:hover{ background:#efefef; color:#ff6600;}
+
+.FontSearch{background:#292929; height:30px; border-radius:2px; margin-top:14px; padding:10px 0 0 25px;}
+.FontSearch input{ width:342px; height:19px; line-height:19px; padding:0 3px; border:1px solid #c6c4c2; float:left; color:#c3c3c3;}
+.FontSearch button{ width:64px; height:21px; background:url(img/al_ico.gif) no-repeat 0 -163px; float:left; margin-left:5px;}
+.FontSearch button:hover{ background:url(img/al_ico.gif) no-repeat 0 -141px;}

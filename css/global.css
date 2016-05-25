@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,dl,dt,dd{padding: 0;margin: 0;}
+body{ font:12px/1 "\5b8b\4f53", Arial, Helvetica, sans-serif;}
+table {border-collapse:collapse;border-spacing: 0;}
+fieldset,img,button{border: 0px;}
+address,caption,cite,code,dfn,em,var {font-weight: normal;font-style: normal;}
+ol,ul ,dl{list-style: none;}
+caption{text-align: left;}
+h1,h2,h3,h4,h5,h6 {font-weight: bold;font-size: 100%;}
+img { vertical-align:top;}
+input,button{vertical-align:middle;}
+button{ cursor:pointer;}
+.clearfix:after {
+		content:".";
+		clear:both;
+		display:block;
+		height:0;		
+		visibility:hidden;
+}
+.clearfix{display:inline-block; }
+.clearfix {display:block;}
+.clear{clear:both;}
+/*--------------------*/
+
+
+a,a:link{color:#1788af; text-decoration:none;}
+a{blr:expression(this.onFocus=this.blur());outline:none;}
+a:visited{}
+a:hover{color:#f60;}
+a:active{}
+.fl{float:left; }
+.fr{float:right; }
+/* // ----alpha---- // */
+#alpha{position:absolute;z-index:998;left:0;top:0;width:100%;height:1500px;background:none repeat scroll 0 0 #333333;filter:alpha(opacity=80);opacity: 0.8;-moz-opacity:0.8;display:none;}
+
